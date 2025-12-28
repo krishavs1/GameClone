@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agar.io Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="ui-overlay">
+            <div class="score-panel">
+                <div class="score">Mass: <span id="player-mass">0</span></div>
+                <div class="leaderboard">
+                    <h3>Leaderboard</h3>
+                    <div id="leaderboard-list"></div>
+                </div>
+            </div>
+            <div class="instructions">
+                <p>Move your mouse to control your cell</p>
+                <p>Eat smaller cells to grow!</p>
+            </div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
+
+
+
